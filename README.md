@@ -50,17 +50,17 @@ This project was developed as a **Data Engineering Lab (May 2025)**, focusing on
 
 ## 📷 **Visual Results**  
 
-### SSIS ETL Data Flow
-![SSIS Data Flow](Capture1.PNG)  
-*Data flow task in SSIS showing extraction, transformation, and loading steps.*
+### SSIS Customer Dimension Data Flow
+![Customer Dimension Data Flow](Customer_Dimension/Customers_Dim_Data_Flow_Verification.png)  
+*SSIS data flow task for customer dimension extraction and transformation.*
 
-### Incremental Load Execution Success
-![Incremental Load Success](Capture2.PNG)  
-*Successful execution of incremental load package in SSIS.*
+### SQL Server Customer Dimension Verification
+![Customer Dimension Verification](Customer_Dimension/DWH_Customer_Dim_Verification.png)  
+*Verified customer dimension table in SQL Server Management Studio.*
 
-### Star Schema Diagram
-![Star Schema](Capture3.PNG)  
-*Visual representation of the star schema with fact and dimension tables.*
+### SSIS Sales Fact Data Flow
+![Sales Fact Data Flow](Sales Fact/Sales_Fact_Data_Flow_Verification.png)  
+*SSIS data flow task for sales fact table loading.*
 
 ---
 
