@@ -48,7 +48,7 @@ This project was developed as a **Data Engineering Lab (May 2025)**, focusing on
 
 ---
 
-## 📷 **Visual Results**  
+## 📷 **Visual Results Sample**  
 
 ### SSIS Customer Dimension Data Flow
 ![Customer Dimension Data Flow](Customer_Dimension/Customers_Dim_Data_Flow_Verification.png)  
@@ -59,7 +59,7 @@ This project was developed as a **Data Engineering Lab (May 2025)**, focusing on
 *Verified customer dimension table in SQL Server Management Studio.*
 
 ### SSIS Sales Fact Data Flow
-![Sales Fact Data Flow](Sales Fact/Sales_Fact_Data_Flow_Verification.png)  
+![Sales Fact Data Flow](Sales%20Fact/Sales_Fact_Data_Flow_Verification.png)
 *SSIS data flow task for sales fact table loading.*
 
 ---
