@@ -92,7 +92,7 @@ graph TD;
     C --> D["Load:<br/>Populate Dimensions<br/>(Date, Time, <br/> Customers, Products)"];
     D --> E["Load Fact Table:<br/>Insert Metrics into <br/> FactOrders"];
     E --> F["Incremental Load:<br/>Check for <br/> Changes & Update"];
-    F --> G["Validate:<br/>Run Queries & Verify Data Integrity"];
+    F --> G["Validate:<br/>Run Queries & Verify <br/> Data Integrity"];
     G --> H["End:<br/>Data Warehouse Ready <br/> for Analytics"];
 
 
