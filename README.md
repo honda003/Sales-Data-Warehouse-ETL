@@ -88,12 +88,12 @@ This project was developed as a **Data Engineering Lab (May 2025)**, focusing on
 ```mermaid
 graph TD;
     A["Start:<br/>OLTP Source Data"] --> B["Extract:<br/>Connect to OLTP Database"];
-    B --> C["Transform:<br/>Apply Lookups, Aggregations, SCD"];
-    C --> D["Load:<br/>Populate Dimensions<br/>(Date, Time, Customers, Products)"];
-    D --> E["Load Fact Table:<br/>Insert Metrics into FactOrders"];
-    E --> F["Incremental Load:<br/>Check for Changes & Update"];
+    B --> C["Transform:<br/>Apply Lookups, <br/> Aggregations, SCD"];
+    C --> D["Load:<br/>Populate Dimensions<br/>(Date, Time, <br/> Customers, Products)"];
+    D --> E["Load Fact Table:<br/>Insert Metrics into <br/> FactOrders"];
+    E --> F["Incremental Load:<br/>Check for <br/> Changes & Update"];
     F --> G["Validate:<br/>Run Queries & Verify Data Integrity"];
-    G --> H["End:<br/>Data Warehouse Ready for Analytics"];
+    G --> H["End:<br/>Data Warehouse Ready <br/> for Analytics"];
 
 
 ```
